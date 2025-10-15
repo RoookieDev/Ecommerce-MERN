@@ -166,7 +166,7 @@ const tokenData = (userToken) => {
 
 
 // Authentication
-app.use(aut)
+// app.use(aut)
 
 // add to cart api
 app.post("/api/addtocart", async (req, res) => {
