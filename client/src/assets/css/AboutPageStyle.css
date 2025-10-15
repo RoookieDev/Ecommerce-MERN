@@ -1,0 +1,108 @@
+.aboutpage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    color: white;
+    align-content: center;
+    padding: 40px 0; 
+    background: url('../images/jpg/black_bg.jpg');
+    background-size: contain;  
+}
+
+.aboutpage .container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background: rgba(255, 255, 255, 0.09);
+    backdrop-filter: blur(05px);
+    align-content: center;
+}
+.aboutpage .container::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 0;
+    top: 0;
+    background: rgb(157, 1, 97);
+    filter: blur(300px);
+}
+.aboutpage .container::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0;
+    bottom: 0;
+    background: rgb(1, 9, 157);
+    filter: blur(300px);
+    z-index: -1;
+}
+.aboutpage .container .aboutBx{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    z-index: 9;
+}
+.aboutpage .container .aboutBx h5{
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.aboutpage .container .aboutBx h1{
+    position: relative;
+    width: 100%;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 05px;
+    font-weight: 800;
+}
+.aboutpage .container .aboutBx p{
+    position: relative;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.aboutpage .container .connectBx{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+.aboutpage .container .connectBx ul{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: starts;
+}
+.aboutpage .container .connectBx ul li{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: #44444446;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+}
+.aboutpage .container .connectBx ul li:hover{
+    backdrop-filter: blur(10px);
+    transform: scale(1.05);
+}
+.aboutpage .container .connectBx ul li i{
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+.aboutpage .container .connectBx ul li span{
+    position: relative;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'montserrat',sans-serif;
+}

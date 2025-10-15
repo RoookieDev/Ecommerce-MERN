@@ -1,0 +1,153 @@
+.reviewPage{
+    position: relative;
+    width: 100%;
+    background: rgb(225, 225, 225);
+    z-index: 0;
+    padding:30px 20px;
+}
+.reviewPage .container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+    
+}
+.reviewPage .container .rows{
+    position: relative;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: none;
+}
+.reviewPage .container h5{
+    position: relative;
+    width: 100%;
+    font-size: 1.4rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reviewPage .container h1{
+    position: relative;
+    width: 100%;
+    font-weight: 800;
+    font-family: 'montserrat',sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #444;
+    text-align: center;
+}
+.reviewPage .container .cardHolder{
+    position: relative;
+    min-width: 100%;
+    height: auto;
+    background: none;
+    padding: 10px;
+}
+.reviewPage .container .cardHolder .card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-direction: row;
+}
+.reviewPage .container .cardHolder .card .imgBx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.reviewPage .container .cardHolder .card img{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0%;
+    object-position: top;
+    border-radius: 20px;
+}
+.reviewPage .container .cardHolder .textBx{
+    position: relative;
+    width: 100%;
+    padding: 20px 40px;
+    text-align: left;
+    display: grid;
+    align-content: center;
+}
+.reviewPage .container .cardHolder .textBx h2{
+    position: relative;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0px;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+}
+.reviewPage .container .cardHolder .textBx p{
+    position: relative;
+    font-family: 'montserrat',sans-serif;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.reviewPage .container .cardHolder .textBx .rating{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+.reviewPage .container .cardHolder .textBx .rating h4{
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 98, 129);
+    font-weight: 600;
+}
+.reviewPage .container .cardHolder .textBx .rating .icon{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    font-size: 1.2rem;
+    color: goldenrod;
+}
+
+/* Navigation button */
+.reviewPage .container button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: fit-content;
+    padding: 10px;
+    border: 3px solid grey;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: grey;
+}
+.reviewPage .container button:hover{
+    color: #71b4ff;
+    border-color: #71b8ff;
+}
+.reviewPage .container #prev{
+    left: 0;
+
+}

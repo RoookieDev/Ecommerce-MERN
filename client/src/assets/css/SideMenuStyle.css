@@ -1,0 +1,94 @@
+.userprofile .sideMenuBar{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(224, 221, 226) 50%,rgb(255, 255, 255));
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(31, 2, 53);
+}
+.userprofile .sideMenuBar .logoBx{
+    position: relative;
+    width: 100%;
+    padding:10px 20px;
+    background: none;
+    background: rgb(244, 229, 255);
+}
+.userprofile .sideMenuBar .logoBx h2{
+    position: relative;
+    width: 100%;
+    font-size: 1.7rem;
+}
+.userprofile .sideMenuBar .logoBx h4{
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.userprofile .sideMenuBar .menuBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.userprofile .sideMenuBar .menuBox ul{
+    list-style: none;
+    text-align: left;
+}
+.userprofile .sideMenuBar .menuBox ul li{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+.userprofile .sideMenuBar .menuBox ul li a,
+.userprofile .sideMenuBar .menuBox ul li button{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    background:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 05px;
+}
+.userprofile .sideMenuBar .menuBox ul li a:hover{
+    background: #970056;
+    color: white;
+}
+.userprofile .sideMenuBar .menuBox ul li button:hover{
+    background: #970056;
+    color: white;
+}
+
+/* Menu End here */
+
+.userprofile .sideMenuBar .buttonBx{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+.userprofile .sideMenuBar .buttonBx button{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 00px;
+}
+
+.userprofile .sideMenuBar .buttonBx button:hover{
+    background: rgb(34, 34, 34);
+}
+

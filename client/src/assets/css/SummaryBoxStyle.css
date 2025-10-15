@@ -1,0 +1,58 @@
+.summaryBox {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+
+.summaryBox .cardbx {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.summaryBox .cardbx .cardHolder {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+
+.summaryBox .cardbx .cardHolder .card {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background:#f4e5ff;
+    border-radius: 05px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid rgb(239, 239, 239);
+    /* color: white; */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.02);
+}
+
+.summaryBox .cardbx .cardHolder .card i {
+    position: relative;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.summaryBox .cardbx .cardHolder .card h1 {
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'montserrat', sans-serif;
+}
+
+.summaryBox .cardbx .cardHolder .card h1 {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.summaryBox .cardbx .cardHolder .card h4 {
+    position: relative;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}

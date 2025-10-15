@@ -1,0 +1,117 @@
+.footer{
+    position: relative;
+    width: 100%;
+    background:#111;
+    padding: 20px;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    bottom: 0;
+    background: white;
+}
+.footer .containers{
+    position: relative;
+    width: 100%;
+    background: dodgerblue;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,0%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.containers .textBx{
+    position: relative;
+    width: 100%;
+}
+.containers .textBx h4{
+    position: relative;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.containers .btnBx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.containers .btnBx a{
+    position: relative;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+    background: none;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+.containers .btnBx a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.footerMenu{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+.footerMenu ul{
+    position: relative;
+    list-style: none;
+    text-align: left;
+}
+.footerMenu ul li{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+.footerMenu ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #222;
+}
+.footerMenu ul li a:hover{
+    color: lightgrey;
+}
+
+.footerMenu .logo{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+.footerMenu .logo h1{
+    position: relative;
+    width: 100%;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #555;
+    font-family: 'montserrat',sans-serif;
+}
+.footerMenu .logo h1 span{
+    color: dodgerblue;
+}
+.footerMenu .logo h5{
+    position: relative;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.footerMenu .logo p{
+    position: relative;
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}

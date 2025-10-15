@@ -1,0 +1,110 @@
+.detailsform{
+    position: relative;
+    width: 100%;
+    padding:10px 15px;
+    background: rgba(0,0,0,0);
+}
+.detailsform .headerBox{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detailsform .headerBox button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    border: 2px solid #b0b0b0;
+    border-radius: 100px;
+    background: none;
+}
+
+.detailsform .headerBox button i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: #b0b0b0;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    align-content: ce;
+}
+
+.detailsform h4{
+    position: relative;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'montserrat',sans-serif;
+}
+.detailsform h1{
+    position: relative;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+}
+.detailsform form{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+.detailsform form .formData{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+.detailsform form  .inputData{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.detailsform form .formData label{
+    position: relative;
+    width: 100%;
+    padding:5px 10px;
+    border-bottom: 1px solid grey;
+}
+.detailsform form .formData input{
+    position: relative;
+    width: 100%;
+    border: none;
+    background: none;
+
+    padding:10px 10px;
+    font-size: 1.2rem;
+}
+.detailsform form  button{
+    position: relative;
+    width: auto;
+    padding: 10px 15px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+    background:#970071;
+    color: white;
+}
+
+.detailsform form  .inputData textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border: none;
+    background: none;
+
+    padding: 10px;
+    resize: none;
+}

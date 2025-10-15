@@ -1,0 +1,122 @@
+.contactPage{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: url(../images/jpg/white_bg.jpg);
+    background-size: contain;
+    background: whitesmoke;
+}
+
+.contactPage .containers{
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    background: none;
+    background: rgba(255, 255, 255, 0.438);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+
+.contactPage .containers h5{
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+    color: dodgerblue;
+}
+.contactPage .containers h2{
+    position: relative;
+    width: 100%;
+    font-size: 5rem;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: 800;
+    /* font-family: 'montserrat',sans-serif; */
+    text-transform: uppercase;
+}
+.contactPage .containers .contactForm{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    border-radius: 0px;
+}
+.contactPage .containers .contactForm section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 10px  0;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contactPage .containers .contactForm section .formData{
+    position: relative;
+    width: 100%;
+    background: none;
+    border: 2px solid lightgray;
+}
+.contactPage .containers .contactForm section .formData label{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1.5px solid lightgray;
+}
+.contactPage .containers .contactForm section .formData input{
+    position: relative;
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+.contactPage .containers .contactForm section .formData textarea{
+    position: relative;
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px;
+    height: 200px;
+    resize: none;
+}
+.contactPage .containers .contactForm  button{
+    position: relative;
+    padding: 15px 20px;
+    border: none;
+    background: dodgerblue;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contactPage .containers .contactForm  button:hover{
+    background: rgb(0, 83, 167);
+    color: white;
+}
+
+.contactPage .containers .contactForm .btnBx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    justify-content: start;
+}
+.contactPage .containers .contactForm .btnBx a{
+    position: relative;
+    padding: 15px;
+    background: rgb(135, 135, 135);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.contactPage .containers .contactForm .btnBx a i{
+    font-size: 1.2rem;
+}
+.contactPage .containers .contactForm .btnBx a:hover{
+    background: rgb(0, 46, 93);
+}
