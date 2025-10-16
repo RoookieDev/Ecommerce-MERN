@@ -83,6 +83,10 @@ app.get("/sessionData", (req, res) => {
     else {
         return res.json({ valid: false })
     }
+});
+
+app.get('/api/test',async(req,res)=>{
+    res.send("test")
 })
 
 
