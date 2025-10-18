@@ -86,7 +86,18 @@ app.get("/sessionData", (req, res) => {
 });
 
 app.get('/api/test',async(req,res)=>{
-    res.send("test")
+    const { email, password } = req.body;
+        const user = await userTable.findOne({ email })
+        if (!user) return res.json({ msg: "E" })
+        const isMatched = user.password == password;
+        if (!isMatched) return res.json({ msg: "0" })
+        const secretKey = 'USERAUTH'
+        const token = jwt.sign(
+            { userId: user._id, userEmail: user.email },
+            process.env.JWT_SECRET || secretKey,
+            { expiresIn: '1hr' })
+        req.session.userEmail = user.email;
+        res.json({ msg: "1", userData: req.session.userEmail, tokenData: token })
 })
 
 
