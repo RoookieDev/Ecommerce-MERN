@@ -91,7 +91,7 @@ app.get('/api/test',async(req,res)=>{
 
 
 // Login:Accessing/Getting data
-router.post("/api/login", async (req, res) => {
+app.post("/api/login", async (req, res) => {
     try {
         const { email, password } = req.body;
         const user = await userTable.findOne({ email })
@@ -143,7 +143,7 @@ router.post('/api/register', async (req, res) => {
 
 
 // image uploading
-router.post("/upload-image", async (req, res) => {
+app.post("/upload-image", async (req, res) => {
     const { base64 } = req.body;
     try {
         imageTable.create({ image: base64 });
