@@ -35,7 +35,7 @@ export const Login = () => {
 
      else{
       setLoading(true)
-      axios.post(`${VITE_APP_API_URL}/api/login`,{email,password})
+      axios.post(`${VITE_APP_API_URL}/api/test`,{email,password})
       .then(res=> {
         if(res.data.msg==0){
           setAlertMsg(prev=>{
