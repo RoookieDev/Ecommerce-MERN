@@ -24,6 +24,7 @@ require('dotenv').config()
 app.use(cors({
     origin: ["https://ecommerce-mern-client.onrender.com"],
     methods: ["POST", "GET"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
 
 }))
